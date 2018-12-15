@@ -1,0 +1,556 @@
+2018-12-15 12:25:04.457  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.e.m.p.PerimeterServiceApplication      : No active profile set, falling back to default profiles: default
+2018-12-15 12:25:04.477  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.e.m.p.PerimeterServiceApplication      : No active profile set, falling back to default profiles: default
+2018-12-15 12:25:08.359  WARN [perimeter-service,,,] 5932 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:25:08.400  WARN [perimeter-service,,,] 18388 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:25:08.577  WARN [perimeter-service,,,] 5932 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:25:08.613  WARN [perimeter-service,,,] 18388 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:25:08.829  WARN [perimeter-service,,,] 5932 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:25:08.853  WARN [perimeter-service,,,] 18388 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:25:09.601  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e0db90ac-ea23-30b2-b7da-d9bf0a8bd93e
+2018-12-15 12:25:09.607  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e0db90ac-ea23-30b2-b7da-d9bf0a8bd93e
+2018-12-15 12:25:09.653  INFO [perimeter-service,,,] 5932 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2018-12-15 12:25:09.653  INFO [perimeter-service,,,] 18388 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2018-12-15 12:25:09.681  INFO [perimeter-service,,,] 18388 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2018-12-15 12:25:09.685  INFO [perimeter-service,,,] 5932 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2018-12-15 12:25:09.697  INFO [perimeter-service,,,] 5932 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2018-12-15 12:25:09.701  INFO [perimeter-service,,,] 18388 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2018-12-15 12:25:09.769  INFO [perimeter-service,,,] 5932 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c805f318] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:09.777  INFO [perimeter-service,,,] 18388 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$407407a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:10.889  INFO [perimeter-service,,,] 18388 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$e4fa04a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:10.935  INFO [perimeter-service,,,] 5932 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$6c8bf019] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.026  INFO [perimeter-service,,,] 18388 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$c08c0fc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.034  INFO [perimeter-service,,,] 5932 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$481dfb39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.062  INFO [perimeter-service,,,] 5932 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$8105a406] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.074  INFO [perimeter-service,,,] 18388 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$f973b895] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.082  INFO [perimeter-service,,,] 5932 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.102  INFO [perimeter-service,,,] 18388 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.198  INFO [perimeter-service,,,] 5932 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.266  INFO [perimeter-service,,,] 18388 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.274  INFO [perimeter-service,,,] 5932 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1db437e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:11.374  INFO [perimeter-service,,,] 18388 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$96224c76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:25:13.206  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2018-12-15 12:25:13.243  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8101 (http)
+2018-12-15 12:25:13.263  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-15 12:25:13.267  INFO [perimeter-service,,,] 5932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-15 12:25:13.283  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.6.0\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-4.0.1.RELEASE;;.]
+2018-12-15 12:25:13.303  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-15 12:25:13.303  INFO [perimeter-service,,,] 18388 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-15 12:25:13.331  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.6.0\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-4.0.1.RELEASE;;.]
+2018-12-15 12:25:13.711  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-15 12:25:13.711  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9198 ms
+2018-12-15 12:25:13.783  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-15 12:25:13.783  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9230 ms
+2018-12-15 12:25:14.223  WARN [perimeter-service,,,] 5932 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-15 12:25:14.226  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-15 12:25:14.259  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5c8a630
+2018-12-15 12:25:14.271  WARN [perimeter-service,,,] 18388 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-15 12:25:14.275  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-15 12:25:14.304  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@181aa10a
+2018-12-15 12:25:20.603  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-12-15 12:25:20.827  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-12-15 12:25:22.010  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-12-15 12:25:22.160  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-12-15 12:25:22.556  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-12-15 12:25:22.558  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-12-15 12:25:22.928  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-12-15 12:25:22.932  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-12-15 12:25:23.566  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-12-15 12:25:24.674  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-12-15 12:25:24.698  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-12-15 12:25:25.034  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-12-15 12:25:25.034  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-12-15 12:25:26.067  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-12-15 12:25:26.382  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-12-15 12:25:26.391  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-12-15 12:25:26.403  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-12-15 12:25:26.403  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-12-15 12:25:26.415  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-12-15 12:25:26.415  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-12-15 12:25:26.419  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-12-15 12:25:27.047  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-12-15 12:25:27.055  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-12-15 12:25:27.063  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-12-15 12:25:27.079  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1544856927079 with initial instances count: 2
+2018-12-15 12:25:27.295  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-12-15 12:25:27.299  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-12-15 12:25:27.307  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-12-15 12:25:27.307  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-12-15 12:25:27.307  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-12-15 12:25:27.307  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-12-15 12:25:27.311  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-12-15 12:25:27.971  WARN [perimeter-service,,,] 5932 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:25:28.030  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-12-15 12:25:28.038  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-12-15 12:25:28.042  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-12-15 12:25:28.066  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1544856928062 with initial instances count: 2
+2018-12-15 12:25:28.786  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-15 12:25:28.798  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-12-15 12:25:28.810  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'tracingFilter' to: [/*]
+2018-12-15 12:25:28.810  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'exceptionLoggingFilter' to: [/*]
+2018-12-15 12:25:28.822  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-15 12:25:28.822  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-15 12:25:28.854  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-15 12:25:28.854  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-12-15 12:25:28.854  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-15 12:25:29.154  WARN [perimeter-service,,,] 18388 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:25:29.214  WARN [perimeter-service,,,] 5932 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-15 12:25:29.217  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-15 12:25:30.037  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-15 12:25:30.041  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-12-15 12:25:30.041  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'tracingFilter' to: [/*]
+2018-12-15 12:25:30.041  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'exceptionLoggingFilter' to: [/*]
+2018-12-15 12:25:30.045  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-15 12:25:30.045  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-15 12:25:30.061  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-15 12:25:30.061  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-12-15 12:25:30.061  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-15 12:25:30.377  WARN [perimeter-service,,,] 18388 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-15 12:25:30.379  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-15 12:25:30.797  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-15 12:25:31.618  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-15 12:25:33.207  WARN [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-12-15 12:25:36.316  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-12-15 12:25:36.842  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2018-12-15 12:25:37.454  WARN [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-12-15 12:25:37.474  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-15 12:25:37.482  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-15 12:25:37.648  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(1)-127.0.0.1] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-12-15 12:25:37.768  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2018-12-15 12:25:38.002  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2018-12-15 12:25:38.042  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2018-12-15 12:25:38.062  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2018-12-15 12:25:38.186  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2018-12-15 12:25:38.278  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2018-12-15 12:25:38.278  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2018-12-15 12:25:38.282  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2018-12-15 12:25:38.306  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application perimeter-service with eureka with status UP
+2018-12-15 12:25:38.306  INFO [perimeter-service,,,] 5932 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1544856938306, current=UP, previous=STARTING]
+2018-12-15 12:25:38.310  INFO [perimeter-service,,,] 5932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8100: registering service...
+2018-12-15 12:25:38.378  INFO [perimeter-service,,,] 5932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8100 - registration status: 204
+2018-12-15 12:25:38.403  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 921 ms
+2018-12-15 12:25:38.539  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-15 12:25:38.539  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-15 12:25:38.559  INFO [perimeter-service,,,] 5932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2018-12-15 12:25:38.563  INFO [perimeter-service,,,] 5932 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8100
+2018-12-15 12:25:38.575  INFO [perimeter-service,,,] 5932 --- [restartedMain] c.e.m.p.PerimeterServiceApplication      : Started PerimeterServiceApplication in 39.426 seconds (JVM running for 42.651)
+2018-12-15 12:25:38.587  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 48 ms
+2018-12-15 12:25:39.959  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2018-12-15 12:25:40.443  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2018-12-15 12:25:40.547  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2018-12-15 12:25:40.567  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2018-12-15 12:25:40.575  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2018-12-15 12:25:40.659  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2018-12-15 12:25:40.723  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2018-12-15 12:25:40.723  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2018-12-15 12:25:40.723  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2018-12-15 12:25:40.739  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application perimeter-service with eureka with status UP
+2018-12-15 12:25:40.743  INFO [perimeter-service,,,] 18388 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1544856940743, current=UP, previous=STARTING]
+2018-12-15 12:25:40.743  INFO [perimeter-service,,,] 18388 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8101: registering service...
+2018-12-15 12:25:40.783  INFO [perimeter-service,,,] 18388 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8101 - registration status: 204
+2018-12-15 12:25:40.887  INFO [perimeter-service,,,] 18388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8101 (http) with context path ''
+2018-12-15 12:25:40.891  INFO [perimeter-service,,,] 18388 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8101
+2018-12-15 12:25:40.903  INFO [perimeter-service,,,] 18388 --- [restartedMain] c.e.m.p.PerimeterServiceApplication      : Started PerimeterServiceApplication in 42.282 seconds (JVM running for 45.172)
+2018-12-15 12:30:26.424  INFO [perimeter-service,,,] 5932 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-12-15 12:30:27.321  INFO [perimeter-service,,,] 18388 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-12-15 12:32:15.930  INFO [perimeter-service,4526357971db613b,ed17cacded38b563,true] 5932 --- [hystrix-PerimeterServiceController-2] c.e.m.p.c.PerimeterServiceController     : PerimeterServiceController.getPerimeter.perimeter---> {}25.132741228718345
+2018-12-15 12:32:15.930  INFO [perimeter-service,3475405c5bc23ed5,d6e2079e58cd26c1,true] 5932 --- [hystrix-PerimeterServiceController-1] c.e.m.p.c.PerimeterServiceController     : PerimeterServiceController.getPerimeter.perimeter---> {}25.132741228718345
+2018-12-15 12:32:16.665  INFO [perimeter-service,3475405c5bc23ed5,5693160d2bce5589,true] 18388 --- [hystrix-PerimeterServiceController-1] c.e.m.p.c.PerimeterServiceController     : PerimeterServiceController.getPerimeter.perimeter---> {}25.132741228718345
+2018-12-15 12:32:16.665  INFO [perimeter-service,2d739a146171ead7,f9033463a5b326ea,true] 18388 --- [hystrix-PerimeterServiceController-3] c.e.m.p.c.PerimeterServiceController     : PerimeterServiceController.getPerimeter.perimeter---> {}25.132741228718345
+2018-12-15 12:32:16.665  INFO [perimeter-service,4526357971db613b,612af8cc2a2ddbe3,true] 18388 --- [hystrix-PerimeterServiceController-2] c.e.m.p.c.PerimeterServiceController     : PerimeterServiceController.getPerimeter.perimeter---> {}25.132741228718345
+2018-12-15 12:34:35.924  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-12-15 12:34:35.931  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application perimeter-service with eureka with status DOWN
+2018-12-15 12:34:35.931  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1544857475931, current=DOWN, previous=UP]
+2018-12-15 12:34:35.935  INFO [perimeter-service,,,] 18388 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8101: registering service...
+2018-12-15 12:34:35.948  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2018-12-15 12:34:35.949  INFO [perimeter-service,,,] 18388 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8101 - registration status: 204
+2018-12-15 12:34:35.949  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2018-12-15 12:34:35.949  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2018-12-15 12:34:35.949  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2018-12-15 12:34:35.961  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-15 12:34:36.979  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] z.r.AsyncReporter$BoundedAsyncReporter   : Timed out waiting for in-flight spans to send
+2018-12-15 12:34:38.501  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: springCloudBusOutput
+2018-12-15 12:34:38.504  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2018-12-15 12:34:38.504  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: springCloudBusInput
+2018-12-15 12:34:38.504  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: errorChannel
+2018-12-15 12:34:38.508  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2018-12-15 12:34:38.508  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-12-15 12:34:38.516  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'scopedTarget.eurekaClient' threw an exception: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-12-15 12:34:38.848  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-12-15 12:34:38.860  INFO [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-12-15 12:34:38.872  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Eureka-JerseyClient-Conn-Cleaner2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:38.876  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncResolver-bootstrap-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:38.876  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:38.876  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:38.876  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-InstanceInfoReplicator-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:38.880  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:38.880  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-CacheRefreshExecutor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:38.884  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-HeartbeatExecutor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:38.884  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncResolver-bootstrap-executor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:38.884  WARN [perimeter-service,,,] 18388 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxComputationScheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:41.623  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-12-15 12:34:41.627  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application perimeter-service with eureka with status DOWN
+2018-12-15 12:34:41.627  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1544857481627, current=DOWN, previous=UP]
+2018-12-15 12:34:41.627  INFO [perimeter-service,,,] 5932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8100: registering service...
+2018-12-15 12:34:41.639  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2018-12-15 12:34:41.639  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2018-12-15 12:34:41.639  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2018-12-15 12:34:41.643  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2018-12-15 12:34:41.644  INFO [perimeter-service,,,] 5932 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8100 - registration status: 204
+2018-12-15 12:34:41.653  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-15 12:34:42.673  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] z.r.AsyncReporter$BoundedAsyncReporter   : Timed out waiting for in-flight spans to send
+2018-12-15 12:34:44.084  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: springCloudBusOutput
+2018-12-15 12:34:44.088  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2018-12-15 12:34:44.089  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: springCloudBusInput
+2018-12-15 12:34:44.089  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: errorChannel
+2018-12-15 12:34:44.089  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2018-12-15 12:34:44.089  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-12-15 12:34:44.093  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'scopedTarget.eurekaClient' threw an exception: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-12-15 12:34:44.421  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-12-15 12:34:44.425  INFO [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-12-15 12:34:44.441  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Eureka-JerseyClient-Conn-Cleaner2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:44.441  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncResolver-bootstrap-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:44.441  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:44.441  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:44.445  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-InstanceInfoReplicator-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:44.445  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:44.449  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-CacheRefreshExecutor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:44.449  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-HeartbeatExecutor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:44.449  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncResolver-bootstrap-executor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:34:44.453  WARN [perimeter-service,,,] 5932 --- [RMI TCP Connection(19)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxComputationScheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-12-15 12:44:08.405  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.e.m.p.PerimeterServiceApplication      : No active profile set, falling back to default profiles: default
+2018-12-15 12:44:08.477  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.e.m.p.PerimeterServiceApplication      : No active profile set, falling back to default profiles: default
+2018-12-15 12:44:11.274  WARN [perimeter-service,,,] 9012 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:44:11.395  WARN [perimeter-service,,,] 9776 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:44:11.511  WARN [perimeter-service,,,] 9012 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:44:11.573  WARN [perimeter-service,,,] 9776 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:44:11.714  WARN [perimeter-service,,,] 9012 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:44:11.761  WARN [perimeter-service,,,] 9776 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:44:12.479  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e0db90ac-ea23-30b2-b7da-d9bf0a8bd93e
+2018-12-15 12:44:12.521  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e0db90ac-ea23-30b2-b7da-d9bf0a8bd93e
+2018-12-15 12:44:12.529  INFO [perimeter-service,,,] 9012 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2018-12-15 12:44:12.560  INFO [perimeter-service,,,] 9012 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2018-12-15 12:44:12.560  INFO [perimeter-service,,,] 9776 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2018-12-15 12:44:12.592  INFO [perimeter-service,,,] 9776 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2018-12-15 12:44:12.576  INFO [perimeter-service,,,] 9012 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2018-12-15 12:44:12.607  INFO [perimeter-service,,,] 9776 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2018-12-15 12:44:12.685  INFO [perimeter-service,,,] 9776 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$ad626060] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:12.685  INFO [perimeter-service,,,] 9012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$328ebb28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.508  INFO [perimeter-service,,,] 9776 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$51e85d61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.555  INFO [perimeter-service,,,] 9012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$d714b829] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.604  INFO [perimeter-service,,,] 9776 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$2d7a6881] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.657  INFO [perimeter-service,,,] 9776 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$6662114e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.673  INFO [perimeter-service,,,] 9012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$b2a6c349] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.689  INFO [perimeter-service,,,] 9776 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.751  INFO [perimeter-service,,,] 9012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$eb8e6c16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.813  INFO [perimeter-service,,,] 9012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.813  INFO [perimeter-service,,,] 9776 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.938  INFO [perimeter-service,,,] 9776 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$310a52f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:13.938  INFO [perimeter-service,,,] 9012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:14.048  INFO [perimeter-service,,,] 9012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$883cfff7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-15 12:44:16.191  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8101 (http)
+2018-12-15 12:44:16.238  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-15 12:44:16.238  INFO [perimeter-service,,,] 9776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-15 12:44:16.253  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.6.0\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-4.0.1.RELEASE;;.]
+2018-12-15 12:44:16.316  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2018-12-15 12:44:16.395  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-15 12:44:16.395  INFO [perimeter-service,,,] 9012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-15 12:44:16.427  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.6.0\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-4.0.1.RELEASE;;.]
+2018-12-15 12:44:16.692  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-15 12:44:16.692  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8152 ms
+2018-12-15 12:44:17.003  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-15 12:44:17.035  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8599 ms
+2018-12-15 12:44:17.648  WARN [perimeter-service,,,] 9776 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-15 12:44:17.679  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-15 12:44:17.729  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2c090072
+2018-12-15 12:44:17.892  WARN [perimeter-service,,,] 9012 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-15 12:44:17.892  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-15 12:44:17.939  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@15dd7359
+2018-12-15 12:44:27.188  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-12-15 12:44:27.203  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-12-15 12:44:27.345  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-12-15 12:44:27.345  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-12-15 12:44:28.928  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-12-15 12:44:28.928  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-12-15 12:44:29.022  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-12-15 12:44:29.038  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-12-15 12:44:29.434  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-12-15 12:44:29.434  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-12-15 12:44:29.442  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-12-15 12:44:29.442  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-12-15 12:44:30.341  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-12-15 12:44:30.369  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-12-15 12:44:31.417  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-12-15 12:44:31.417  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-12-15 12:44:31.425  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-12-15 12:44:31.426  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-12-15 12:44:31.426  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-12-15 12:44:31.426  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-12-15 12:44:31.426  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-12-15 12:44:31.442  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-12-15 12:44:31.457  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-12-15 12:44:31.459  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-12-15 12:44:31.459  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-12-15 12:44:31.459  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-12-15 12:44:31.459  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-12-15 12:44:31.459  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-12-15 12:44:32.302  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-12-15 12:44:32.330  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-12-15 12:44:32.414  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-12-15 12:44:32.444  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1544858072418 with initial instances count: 7
+2018-12-15 12:44:32.434  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-12-15 12:44:32.481  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-12-15 12:44:32.509  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-12-15 12:44:32.517  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1544858072517 with initial instances count: 7
+2018-12-15 12:44:33.403  WARN [perimeter-service,,,] 9012 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:44:33.627  WARN [perimeter-service,,,] 9776 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2018-12-15 12:44:34.362  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-15 12:44:34.366  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-12-15 12:44:34.371  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'tracingFilter' to: [/*]
+2018-12-15 12:44:34.371  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'exceptionLoggingFilter' to: [/*]
+2018-12-15 12:44:34.371  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-15 12:44:34.375  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-15 12:44:34.375  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-15 12:44:34.375  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-12-15 12:44:34.375  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-15 12:44:34.559  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-15 12:44:34.563  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-12-15 12:44:34.575  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'tracingFilter' to: [/*]
+2018-12-15 12:44:34.575  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'exceptionLoggingFilter' to: [/*]
+2018-12-15 12:44:34.579  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-15 12:44:34.595  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-15 12:44:34.599  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-15 12:44:34.611  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-12-15 12:44:34.611  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-15 12:44:34.675  WARN [perimeter-service,,,] 9012 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-15 12:44:34.675  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-15 12:44:35.207  WARN [perimeter-service,,,] 9776 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-15 12:44:35.207  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-15 12:44:36.625  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-15 12:44:36.890  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-15 12:44:39.794  WARN [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-12-15 12:44:39.938  WARN [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-12-15 12:44:42.143  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-12-15 12:44:42.240  INFO [perimeter-service,,,] 9776 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-15 12:44:42.252  INFO [perimeter-service,,,] 9776 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-15 12:44:42.267  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-12-15 12:44:42.408  INFO [perimeter-service,,,] 9776 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 156 ms
+2018-12-15 12:44:42.455  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2018-12-15 12:44:42.596  INFO [perimeter-service,,,] 9012 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-15 12:44:42.758  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2018-12-15 12:44:42.710  INFO [perimeter-service,,,] 9012 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-15 12:44:42.843  INFO [perimeter-service,,,] 9012 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 47 ms
+2018-12-15 12:44:43.421  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2018-12-15 12:44:43.574  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2018-12-15 12:44:43.618  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2018-12-15 12:44:43.712  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2018-12-15 12:44:43.762  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2018-12-15 12:44:43.778  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2018-12-15 12:44:43.872  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2018-12-15 12:44:43.887  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2018-12-15 12:44:43.887  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2018-12-15 12:44:43.934  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2018-12-15 12:44:44.043  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2018-12-15 12:44:44.043  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2018-12-15 12:44:44.043  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2018-12-15 12:44:44.043  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2018-12-15 12:44:44.043  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2018-12-15 12:44:44.059  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2018-12-15 12:44:44.075  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application perimeter-service with eureka with status UP
+2018-12-15 12:44:44.075  INFO [perimeter-service,,,] 9776 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1544858084075, current=UP, previous=STARTING]
+2018-12-15 12:44:44.075  INFO [perimeter-service,,,] 9776 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8101: registering service...
+2018-12-15 12:44:44.141  INFO [perimeter-service,,,] 9776 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8101 - registration status: 204
+2018-12-15 12:44:44.137  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application perimeter-service with eureka with status UP
+2018-12-15 12:44:44.142  INFO [perimeter-service,,,] 9012 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1544858084142, current=UP, previous=STARTING]
+2018-12-15 12:44:44.158  INFO [perimeter-service,,,] 9012 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8100: registering service...
+2018-12-15 12:44:44.205  INFO [perimeter-service,,,] 9012 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PERIMETER-SERVICE/9.199.40.85:perimeter-service:8100 - registration status: 204
+2018-12-15 12:44:44.408  INFO [perimeter-service,,,] 9776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8101 (http) with context path ''
+2018-12-15 12:44:44.408  INFO [perimeter-service,,,] 9776 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8101
+2018-12-15 12:44:44.423  INFO [perimeter-service,,,] 9776 --- [restartedMain] c.e.m.p.PerimeterServiceApplication      : Started PerimeterServiceApplication in 40.642 seconds (JVM running for 43.076)
+2018-12-15 12:44:44.479  INFO [perimeter-service,,,] 9012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2018-12-15 12:44:44.487  INFO [perimeter-service,,,] 9012 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8100
+2018-12-15 12:44:44.518  INFO [perimeter-service,,,] 9012 --- [restartedMain] c.e.m.p.PerimeterServiceApplication      : Started PerimeterServiceApplication in 40.768 seconds (JVM running for 43.168)
+2018-12-15 12:48:11.862  INFO [perimeter-service,980d93c77e0ea417,92d3209153169b80,true] 9776 --- [hystrix-PerimeterServiceController-1] c.e.m.p.c.PerimeterServiceController     : PerimeterServiceController.getPerimeter.perimeter---> {}25.132741228718345
+2018-12-15 12:48:12.657  INFO [perimeter-service,980d93c77e0ea417,586d82a836baadad,true] 9012 --- [hystrix-PerimeterServiceController-1] c.e.m.p.c.PerimeterServiceController     : PerimeterServiceController.getPerimeter.perimeter---> {}25.132741228718345
+2018-12-15 12:48:12.857  INFO [perimeter-service,56012e87266c86ac,bfd4af2b4d3f499f,true] 9776 --- [hystrix-PerimeterServiceController-2] c.e.m.p.c.PerimeterServiceController     : PerimeterServiceController.getPerimeter.perimeter---> {}25.132741228718345
+2018-12-15 12:49:31.434  INFO [perimeter-service,,,] 9012 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-12-15 12:49:31.468  INFO [perimeter-service,,,] 9776 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
