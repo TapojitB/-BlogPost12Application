@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Bean;
 
 import brave.sampler.Sampler;
 
-@EnableHystrixDashboard
 @EnableTurbine
+@EnableHystrixDashboard
 @EnableCircuitBreaker
 @EnableDiscoveryClient(autoRegister = true)
 @SpringBootApplication
